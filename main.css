@@ -1,0 +1,112 @@
+/* Stylesheet done by Helio Goncalves | 2018 */
+/* This is a project that belongs to the odinProject website - check it out! */
+
+/* --- Reset and Helpers --- */
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,0.87);
+    display: flex;
+    flex-direction: column;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+/***** NAVIGATION ****
+*********************/
+
+/* ---- Icons ---- */
+.menu-icon, 
+.bell-icon {
+    height: 22px;
+}
+
+.avatar-icon {
+    height: 35px;
+}
+
+/* --- Links --- */
+
+.links-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.links-icons a {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.links-icons a:nth-of-type(3),
+.links-icons a:nth-of-type(4)
+ {
+    opacity: 0.6;
+}
+
+.links-icons a:last-child {
+    margin-right: 0;
+}
+
+.links-icons a:link,
+.links-icons a:visited {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.links-icons a:hover:nth-of-type(1),
+.links-icons a:hover:nth-of-type(2) {
+    text-decoration: underline;
+    opacity: 0.6;
+}
+
+.links-icons a:hover:nth-of-type(3),
+.links-icons a:hover:nth-of-type(4) {
+    opacity: 1;
+}
+/******* MAIN ********
+*********************/
+main {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-search img {
+    height: 110px;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.google-search-buttons {
+
+}
+
+/****** FOOTER *******
+*********************/
+footer {
+    flex-shrink: 0;
+}
