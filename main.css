@@ -88,21 +88,39 @@ main {
     align-items: center;
 }
 
+.google-search {
+    text-align: center;
+}
+
 .google-search img {
     height: 110px;
 }
 
-input[type=text] {
-    width: 100%;
-    height: 50px;
+input[type=search] {
+    width: 560px;
+    height: 40px;
+    margin: 20px 0;
+    outline: none;
     border: none;
-    border-radius: 2px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    box-shadow: 0px 0px 0px 0.4px rgba(0,0,0,0.06), 0.2px 1.5px 1px 0px rgba(0,0,0,0.1);
+    transition: all cubic-bezier(0.4, 0.0, 0.2, 1) 300ms;
+    background: url(https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/052018/untitled-1_63.png?VaW1bs_mipmverkoNocEJNL6BKTHYW.R&itok=ThO1Yh_H);
+    background-size: 25px 25px;
+    background-position: 97% 50%;
+    background-repeat: no-repeat;
+
 }
 
-.google-search-buttons {
+input[type=search]:hover {
+    box-shadow: 0px 0px 0px 0.4px rgba(0,0,0,0.06), 0.4px 2.5px 7px 0px rgba(0,0,0,0.1);
+}
 
+.google-search-buttons a {
+    background-color: rgba(0,0,0,0.3);
+    padding: 20px 10px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    
 }
 
 /****** FOOTER *******
