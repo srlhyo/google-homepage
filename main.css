@@ -12,10 +12,11 @@ html, body {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     margin: 0;
     padding: 0;
-    color: rgba(0,0,0,0.87);
+    color: rgb(34, 34, 34);
     display: flex;
     flex-direction: column;
 }
@@ -66,7 +67,7 @@ a:hover {
 .links-icons a:link,
 .links-icons a:visited {
     text-decoration: none;
-    color: rgba(0,0,0,0.87);
+    color: #222222;
 }
 
 .links-icons a:hover:nth-of-type(1),
@@ -88,6 +89,8 @@ main {
     align-items: center;
 }
 
+/* --- Google Banner --- */
+
 .google-search {
     text-align: center;
 }
@@ -96,10 +99,13 @@ main {
     height: 110px;
 }
 
+/* --- Search Bar --- */
+
 input[type=search] {
     width: 560px;
-    height: 40px;
+    height: 48px;
     margin: 20px 0;
+    padding-left: 15px;
     outline: none;
     border: none;
     box-shadow: 0px 0px 0px 0.4px rgba(0,0,0,0.06), 0.2px 1.5px 1px 0px rgba(0,0,0,0.1);
@@ -115,16 +121,113 @@ input[type=search]:hover {
     box-shadow: 0px 0px 0px 0.4px rgba(0,0,0,0.06), 0.4px 2.5px 7px 0px rgba(0,0,0,0.1);
 }
 
+/* --- Search Buttons --- */
+
+.google-search-buttons {
+    margin: 28px 0;
+}
+
 .google-search-buttons a {
-    background-color: rgba(0,0,0,0.3);
-    padding: 20px 10px;
+    background-color: rgba(0,0,0,0.03);
+    padding: 13px 13px;
     text-decoration: none;
-    color: rgba(0,0,0,0.87);
-    
+    color: rgba(0,0,0,0.4);
+    font-weight: bold;
+
+}
+
+.google-search-buttons a:hover {
+    background-color: rgba(0,0,0,0.03);
+    border: 1px solid rgba(0,0,0,0.2);
+    color: rgba(34,34,34,0.7);
+}
+
+.google-search-buttons a:nth-of-type(1) {
+    margin-right: 2px;
+}
+
+.google-search-buttons a:nth-of-type(2) {
+    margin-left: 2px;
+}
+
+/* --- Extra Link --- */
+
+.extras {
+    margin-top: 40px;
+}
+
+.extras a {
+    text-decoration: none;
+}
+
+.extras a:link,
+.extras a:visited {
+    color: #1a0dab;
+}
+
+.extras a:hover {
+    text-decoration: underline;
 }
 
 /****** FOOTER *******
 *********************/
 footer {
     flex-shrink: 0;
+}
+
+.links {
+    display: flex;
+    background-color: rgba(0,0,0,0.03);
+    border-top: 1px solid rgba(0,0,0,0.03);
+}
+
+.links ul {
+    display: flex;
+}
+
+.links .links-right {
+    flex-basis: 74%;
+    justify-content: flex-end;
+}
+
+.links .links-right li:nth-of-type(1),
+.links .links-right li:nth-of-type(2) {
+    margin-right: 20px;
+    
+}
+
+.links .links-left li:nth-of-type(2),
+.links .links-left li:nth-of-type(3) {
+    margin-left: 20px;
+    
+}
+
+.links-right li a,
+.links-left li a {
+    padding: 5px;
+}
+
+.links-left li .first-link {
+    padding-left: 0;
+}
+
+.links-right li a:link,
+.links-right li a:visited,
+.links-left li a:link, 
+.links-left li a:visited {
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+}
+
+.links-right li a:hover,
+.links-left li a:hover {
+    text-decoration: underline;
+}
+
+.location {
+    margin: 0;
+    padding: 15px 0 15px 40px;
+    background-color: rgba(0,0,0,0.03);
+    color: rgba(0,0,0,0.5);
+    border-top: 1px solid rgba(0,0,0,0.03); 
 }
