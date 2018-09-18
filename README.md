@@ -1,15 +1,8 @@
-<style>
-    span {
-        background-color: yellow;
-        color: black;
-    }
-</style>
-
 # Build a Google page 
 
 ![Project Image](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Google_web_search.png/800px-Google_web_search.png)
 
-> The simple version <span> _**with the main focus on the search box**_</span>
+> The simple version  _**with main focus on the search box**_
 
 ### Table of Contents
 
