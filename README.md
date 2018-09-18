@@ -54,7 +54,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Author Info 
 
-- GitHub - [github.com/serlhyo](https://github.com/srlhyo)
+- GitHub - [github.com/srlhyo](https://github.com/srlhyo)
 - Linkedin - [Helio Goncalves](https://www.linkedin.com/in/helio-goncalves/)
 
 [Back to the top](#build-a-google-page)
